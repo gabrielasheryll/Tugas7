@@ -14,15 +14,16 @@ class ChangeTheme extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 IconButton(
-                  onPressed: () {
+                  onPressed:() {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Setting()),
+                      MaterialPageRoute(builder:(context) => Setting()),
                     );
+                    
                   },
                   icon: Icon(
                     Icons.arrow_back,
-                    size: 30,
+                    size: 40,
                     color: Color(0xFF353535),
                   ),
                 ),
