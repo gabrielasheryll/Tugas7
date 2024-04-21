@@ -124,7 +124,7 @@ class FormFeed extends StatelessWidget {
               TextField(
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  hintText: 'Name',
+                  hintText: 'Nama',
                 ),
               ),
               SizedBox(height: 10),
