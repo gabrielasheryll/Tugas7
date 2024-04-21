@@ -28,6 +28,7 @@ class ChangeLanguage extends StatelessWidget {
                 ),
               ],
             ),
+            
           ),
           Align(
             alignment: Alignment.topCenter, // Menempatkan teks "Setting" dan tombol-tombol ke atas
