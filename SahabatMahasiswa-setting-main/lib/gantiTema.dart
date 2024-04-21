@@ -46,9 +46,9 @@ class ChangeTheme extends StatelessWidget {
                   ),
                 ),
                 // switch button
-                SizedBox(height: 20),
-                SwitchButton(),
-                SizedBox(height: 10),
+                SizedBox (height: 20),
+                SwitchButton (),
+                SizedBox (height: 10),
                 Text(
                   '*Switch to change theme',
                   style: TextStyle(
@@ -111,7 +111,7 @@ class _SwitchExampleState extends State<SwitchButton> {
             ),
           ),
         ),
-        
+
         SizedBox(height: 20), 
         Transform.scale(
           scale: 1.5,
