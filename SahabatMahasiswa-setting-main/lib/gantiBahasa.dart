@@ -35,8 +35,8 @@ class ChangeLanguage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                SizedBox(height: 30),
-                Text(
+                SizedBox(height: 30), //Menempatkan text ganti bahasa
+                Text( 
                   'Change Language',
                   style: TextStyle(
                     color: Color(0xFF353535),
