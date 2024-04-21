@@ -28,12 +28,14 @@ class Setting extends StatelessWidget {
             ),
           ),
           Align(
+            
             alignment: Alignment.topCenter, // Menempatkan teks "Setting" dan tombol-tombol ke atas
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 SizedBox(height: 50),
                 Text(
+                  
                   'Settings',
                   style: TextStyle(
                     color: Color(0xFF353535),
@@ -42,6 +44,7 @@ class Setting extends StatelessWidget {
                     fontWeight: FontWeight.w700,
                   ),
                 ),
+                
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
@@ -50,6 +53,7 @@ class Setting extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => ChangeLanguage()),
                     );
                   },
+                  
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFF3E4553),
                     shape: RoundedRectangleBorder(
