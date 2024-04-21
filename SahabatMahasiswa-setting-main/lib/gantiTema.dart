@@ -17,11 +17,10 @@ class ChangeTheme extends StatelessWidget {
                   onPressed:() {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder:(context) => Setting()),
+                      MaterialPageRoute (builder:(context) => Setting()),
                     );
-                    
                   },
-                  icon: Icon(
+                  icon:Icon(
                     Icons.arrow_back,
                     size: 40,
                     color: Color(0xFF353535),
@@ -38,7 +37,7 @@ class ChangeTheme extends StatelessWidget {
               children: [
                 SizedBox(height: 30),
                 Text(
-                  'Change Theme',
+                  'Ganti Tema',
                   style: TextStyle(
                     color: Color(0xFF353535),
                     fontSize: 40,
