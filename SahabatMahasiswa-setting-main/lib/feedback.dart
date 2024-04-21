@@ -81,7 +81,6 @@ class FeedbackPage extends StatelessWidget {
                 SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () {
-                    // Tambahkan kode untuk menyimpan perubahan bahasa
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFF3E4553),
