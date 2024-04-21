@@ -63,7 +63,7 @@ class Setting extends StatelessWidget {
                     minimumSize: Size(250, 44),
                   ),
                   child: Text(
-                    'Change Language',
+                    'Ganti Bahasa',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -72,6 +72,7 @@ class Setting extends StatelessWidget {
                     ),
                   ),
                 ),
+                
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
@@ -89,7 +90,7 @@ class Setting extends StatelessWidget {
                     minimumSize: Size(250, 44),
                   ),
                   child: Text(
-                    'Change Theme',
+                    'Ganti Tema',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
