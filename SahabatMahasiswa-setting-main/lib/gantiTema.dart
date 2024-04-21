@@ -76,7 +76,6 @@ class SwitchButton extends StatefulWidget {
 
 class _SwitchExampleState extends State<SwitchButton> {
   bool light = false;
-
   final MaterialStateProperty<Icon?> thumbIcon =
       MaterialStateProperty.resolveWith<Icon?>(
     (Set<MaterialState> states) {
@@ -112,6 +111,7 @@ class _SwitchExampleState extends State<SwitchButton> {
             ),
           ),
         ),
+        
         SizedBox(height: 20), 
         Transform.scale(
           scale: 1.5,
