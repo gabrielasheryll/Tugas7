@@ -41,7 +41,7 @@ class FeedbackPage extends StatelessWidget {
                   'Feedback',
                   style: TextStyle(
                     color: Color(0xFF353535),
-                    fontSize: 40,
+                    fontSize: 20,
                     fontFamily: 'Nunito Sans',
                     fontWeight: FontWeight.w700,
                   ),
