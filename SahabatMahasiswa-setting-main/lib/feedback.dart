@@ -47,9 +47,9 @@ class FeedbackPage extends StatelessWidget {
                   ),
                 ),
                 //
-                SizedBox(height: 20),
+                SizedBox(height: 30),
                 FormFeed(),
-                SizedBox(height: 20),
+                SizedBox(height: 30),
                 Text(
                   'Share your experience in scalling:',
                   style: TextStyle(
