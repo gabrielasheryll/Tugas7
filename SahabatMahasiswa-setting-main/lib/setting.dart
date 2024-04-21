@@ -11,13 +11,12 @@ class Setting extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Padding(
-            padding: EdgeInsets.only(left: 10, top: 50), // Mengatur jarak panah
+            padding: EdgeInsets.only(left: 10, top: 50), 
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 IconButton(
                   onPressed: () {
-                    // Tambahkan kode fungsi untuk tombol panah di sini
                   },
                   icon: Icon(
                     Icons.arrow_back,
