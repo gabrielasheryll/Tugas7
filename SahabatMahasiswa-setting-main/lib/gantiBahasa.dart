@@ -63,8 +63,6 @@ class ChangeLanguage extends StatelessWidget {
                       ),
                     ],
                     onChanged: (Locale? selectedLocale) {
-                      // Tambahkan kode untuk menyimpan perubahan bahasa
-                      // Anda dapat menggunakan selectedLocale untuk menangani perubahan bahasa
                     },
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
